@@ -1,0 +1,10 @@
+title: Visfo
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+collections:
+  infos:
+    output: true
