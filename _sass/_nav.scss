@@ -90,6 +90,7 @@ nav {
 
       display: flex;
       width: 100%;
+      align-items: center;
 
       span {
         width: 48px;
@@ -106,12 +107,7 @@ nav {
         flex-grow: 1;
         display: flex;
         justify-content: center;
-      }
-
-      &:last-child {
-        a {
-          padding-bottom: 32px;
-        }
+        align-items: center;
       }
     }
   }

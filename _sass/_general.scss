@@ -1,7 +1,20 @@
+@font-face {
+  font-family: Sen;
+  src: url(/assets/fonts/Sen/Sen-Regular.ttf)
+}
+
 body {
   margin: 0;
   padding: 0;
-  padding-left: 48px;
+  padding-left: 52px;
 
-  font-family: sans-serif;
+  font-family: "Sen", sans-serif;
+}
+
+.page-content {
+  min-height: calc(100vh - 51px);
+}
+
+h1 {
+  margin: 0;
 }
