@@ -2,11 +2,6 @@ nav {
 
   &.closed {
     .nav-toggle {
-      svg {
-        fill: #efefef;
-        opacity: 1;
-      }
-
       .toggle {
         hr:first-child {
           transform: translateY(-4px) rotate(225deg) ;
@@ -25,15 +20,6 @@ nav {
     left: 0;
     height: 100vh;
     width: 48px;
-
-    svg {
-      height: 100%;
-      width: 100%;
-      fill: #36b2ff;
-      padding-left: 4px;
-      transition: 0.3s;
-      opacity: 0;
-    }
 
     .toggle {
       color: #0040ff;
