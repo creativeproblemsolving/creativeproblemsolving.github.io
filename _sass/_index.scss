@@ -1,5 +1,12 @@
-.page-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+#logo {
+  padding-top: 16px;
+}
+
+.youtube-group {
+  width: 100%;
+
+  iframe:first-child {
+    width: 100%;
+    height: 40vw;
+  }
 }
