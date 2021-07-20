@@ -10,7 +10,8 @@ $(document).ready(function() {
     }, function(data) {
       data.items.forEach(function(item) {
         videoId = item.snippet.resourceId.videoId;
-        $('.video-group').append('<div class="video"><iframe width="560" height="315" src=https://www.youtube.com/embed/' + videoId + ' title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>');
+        videoTitle = item.snippet.title;
+        $('.video-group').append('<div class="video"><p class="video-title">' + videoTitle + '</p><iframe width="560" height="315" src=https://www.youtube.com/embed/' + videoId + ' title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>');
       });
     }
   );

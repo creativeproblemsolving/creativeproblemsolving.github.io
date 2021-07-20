@@ -5,8 +5,24 @@
 .youtube-group {
   width: 100%;
 
-  iframe:first-child {
+  iframe {
+    width: 100%;
+    height: calc(100% - 51px);
+  }
+
+  .video {
     width: 100%;
     height: 40vw;
+    margin: 16px;
+
+    &-title {
+      background-color: #5f8fff;
+      margin: 0;
+      display: inline-block;
+      padding: 16px;
+      border-radius: 8px 8px 0 0;
+      color: #fff;
+      overflow-x: auto;
+    }
   }
 }
