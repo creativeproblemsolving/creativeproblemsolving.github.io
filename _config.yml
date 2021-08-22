@@ -6,5 +6,5 @@ plugins:
   - jekyll-feed
 
 collections:
-  infos:
-    output: true
+  people:
+    output: false

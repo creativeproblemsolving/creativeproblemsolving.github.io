@@ -3,3 +3,40 @@ layout: default
 ---
 
 <h1>About</h1>
+<!--
+<div class='team-wrapper'>
+  <div class='team-group' id='president'>
+  </div>
+  <div class='team-group' id='platform-manager'>
+  </div>
+  <div class='team-group' id='marketing-director'>
+  </div>
+  <div class='team-group' id='creative-director'>
+  </div>
+  <div class='team-group' id='technical-director'>
+  </div>
+  <div class='team-group' id='member'>
+  </div>
+</div>
+-->
+<div class='team-wrapper'>
+  {% for person in site.people %}
+    <div class='team-person'>
+      <hr>
+      <div class='team-img'>
+        <img src="{{ person.pic }}">
+      </div>
+      <div class="team-info">
+        <div class="team-name">
+          <p>{{ person.name }}</p>
+        </div>
+        <div class="team-role">
+          <p>{{ person.role }}</p>
+        </div>
+      </div>
+      <div class="team-bio">
+        <p>{{ person.content }}</p>
+      </div>
+    </div>
+  {% endfor %}
+</div>
