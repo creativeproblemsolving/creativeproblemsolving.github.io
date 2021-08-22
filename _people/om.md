@@ -1,6 +1,6 @@
 ---
 name: Om
 role: President
-pic:  "/assets/images/people/abhinav.jpeg"
+pic:  "/assets/images/people/ompicture.jpg"
 ---
 Hello
